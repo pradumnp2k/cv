@@ -1,0 +1,67 @@
+
+        header::before{
+            background: url(../img/bg3.jpeg);
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.9;
+
+        }
+        body{
+            color: white;
+            
+        }
+        .navbar{
+            background-color: rgb(15, 5, 17);
+            border-radius: 10px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{  
+            float: left;
+            list-style: none;
+        }
+        .navbar li a{
+            margin: auto;
+            text-decoration: none;
+            padding: 1px 20px;
+            color: rgb(255, 227, 189);
+            text-align: center;
+        }
+        .content{
+            text-align: center;
+            color: white;
+        }
+        .footer{
+            text-align: center;
+        }
+        h1{
+            font-family: 'Pacifico', cursive;
+        }
+        .touch{
+            position: relative;
+            top: 10px;
+            text-align: center;
+            display: flex;
+            border-radius: 10%;
+            justify-content: center;
+            /* align-items: center; */
+            text-align: center;
+        }
+        .touch p{
+            position: absolute;
+            top: px;
+        }
+        .form textarea{
+           border-radius: 5%;
+        }
+        .form input{
+            display: block;
+            border-radius: 10%;
+        }
+
